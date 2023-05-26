@@ -1,5 +1,5 @@
 # Trabalhos-AEDs-II
-Resoluções minhas dos trabalhos propostos durante a disciplina de AEDs II, no 2º Período do curso
+Resoluções minhas dos trabalhos propostos durante a disciplina de AEDs II, no 2º Período do curso. Estes projetos foram desenvolvidos por meio da IDE Apache NetBeans
 
 # 1 - Processamento de Imagens com Ponteiros
 Desenvolvimento completo de um programa que realiza a leitura de uma imagem de tons de cinza e permite processamento de imagem; com opção de imagem negativa, inversão, rotação e escurecimento das bordas.
