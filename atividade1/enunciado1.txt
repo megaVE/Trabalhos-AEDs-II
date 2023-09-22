@@ -1,0 +1,59 @@
+Objetivo:
+adquirir conhecimentos de aritmética de ponteiros, processando imagens
+(matrizes), e modularização de códigos com funções em biblioteca.
+
+
+Descrição:
+o aplicativo desenvolvido no projeto deverá carregar uma imagem de um arquivo de
+entrada no início e gravar um arquivo de saída para cada operação sobre a
+imagem. Cada operação na imagem deve ser codificada em uma função utilizando aritmética
+de ponteiros, e todas as funções devem estar organizadas em pelo menos uma
+biblioteca de funções. As funções podem chamar umas às outras caso seja
+interessante fazer isso.
+
+
+
+
+Arquivo
+de Imagem: cada arquivo deve representar apenas uma imagem, conforme explicado
+em sala de aula, contendo um cabeçalho e o corpo. O cabeçalho é formado por 4
+dados: o código “P2” na primeira linha, os valores do número de colunas e
+número de linhas na segunda linha separados por espaço, e o valor da quantidade
+de tons de cinza na terceira linha. O corpo do arquivo será formado pelo número
+de linhas vezes o número de colunas em tons de cinza, sendo que os valores
+serão separados por espaços ou quebras de linhas, o que for mais conveniente.
+Estes valores serão colocados da esquerda para a direita e de cima para baixo
+numa matriz de valores inteiros, seguindo a orientação conhecida das imagens.
+
+
+
+
+Requisitos:
+o aplicativo deverá:
+
+
+    apresentar um menu ao usuário com as opções das
+    operações implementadas, numeradas e com o valor zero indicando para sair
+    do aplicativo;
+    o código-fonte deve estar comentado e fácil de
+    entender;
+    o projeto deve ler o arquivo de imagem conforme
+    descrito acima e escrever os arquivos no mesmo formato, permitindo que os
+    arquivos de saída possam ser lidos como entrada de uma nova execução do
+    aplicativo;
+    as operações sobre a imagem de entrada deve
+    utilizar aritmética de pontos, e não pode utilizar índices para manipular
+    qualquer elemento da matriz (os índices das posições iniciais podem ser
+    utilizados apenas para iniciar ou finalizar os ponteiros criados);
+    o projeto deve implementar no mínimo as operações:
+    imagem negativa, inversão vertical, inversão horizontal, rotação à direita
+    e escurecimento das bordas;
+    outras operações podem ser implementadas e serão
+    consideradas como pontos extras;
+    deverá ser entregue os códigos-fonte do projeto,
+    preferencialmente no NetBeans. Recomenda-se que projetos feitos em outras
+    IDEs sejam testados no NetBeans e resolvidos eventuais erros e
+    configurações incorretas que levem a um mal funcionamento.
+
+Importante:
+o projeto deverá ser feito por grupos de no máximo 3 alunos.

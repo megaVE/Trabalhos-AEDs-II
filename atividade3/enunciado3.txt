@@ -1,0 +1,17 @@
+Objetivo: adquirir conhecimentos de manipulação de listas com alocação dinâmica (lista ligada ou encadeada) numa aplicação que cria uma árvore binária e uma árvore AVL como resultado da busca numa lista principal de carros, vans e utilitários.
+
+Descrição: o aplicativo desenvolvido no projeto deve criar uma lista ligada principal com os dados lidos de um arquivo de entrada. Os dados de cada linha do arquivo devem ser armazenados em um nó da lista, na ordem apresentada pelas linhas do arquivo (e não pela placa ou outro campo). Então o aplicativo deve construir uma árvore binária e uma árvore AVL a partir da lista principal, sem realocar ou duplicar os nós da lista principal, pelo campo placa dos veículos. Ao final devem ser informado o nível máximo das árvores.
+
+Arquivo de Dados: conterá um número ilimitado de linhas, onde cada linha conterá os dados de um veículo: modelo, marca, tipo, ano, quilometragem, potência do motor, combustível, câmbio, direção, cor, número de portas e placa.
+
+Requisitos: o aplicativo deverá:
+
+apresentar um menu ao usuário com as opções de inclusão, exclusão, buscas, árvores, relatório das árvores e relatório da lista principal;
+construir as árvores binária e AVL;
+apresentar o relatório das árvores percorrendo em pré-ordem;
+apresentar o relatório de todos os clientes na tela do computador;
+ao final da execução todas as estruturas devem ser desalocadas.
+
+Estrutura de Dados: Imagem em anexo.
+
+Importante: O projeto deverá ser feito por grupos de no máximo 3 alunos, e deve ter sido compilado, testado e exportado compactado pelo NetBeans em formato ZIP.
